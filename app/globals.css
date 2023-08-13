@@ -187,15 +187,15 @@
 /* END: Footer styles */
 
 /* START: searchbar styles */
-.searchbar {
+.search-bar {
   @apply flex items-center justify-start max-sm:flex-col w-full relative max-sm:gap-4 max-w-3xl;
 }
 
-.searchbar__item {
+.search-bar__item {
   @apply flex-1 max-sm:w-full flex justify-start items-center relative;
 }
 
-.searchbar__input {
+.search-bar__input {
   @apply w-full h-[48px] pl-12 p-4 bg-light-white rounded-r-full max-sm:rounded-full outline-none cursor-pointer text-sm;
 }
 /* END: searchbar styles */
