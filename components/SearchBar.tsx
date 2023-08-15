@@ -46,7 +46,7 @@ const SearchBar = () => {
       window.location.pathname
     }?${searchParams.toString()}`;
 
-    router.push(newPathName);
+    router.push(newPathName, { scroll: false }); // To stop next router to perform automatic scroll
   };
   return (
     <form className='search-bar' onSubmit={handleSearch}>
